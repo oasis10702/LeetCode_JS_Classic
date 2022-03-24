@@ -19,7 +19,13 @@ function longestPalindrome(s) {
       right += 1;
     }
   }
-  // @TODO
+
+  for (let i = 0; i < s.length; i++) {
+    expandAroundMiddle(i - 1, i + 1);
+    expandAroundMiddle(i, i + 1);
+  }
+
+  return s.slice(startIndex, startIndex + maxLength);
 }
 
 module.exports = longestPalindrome;
