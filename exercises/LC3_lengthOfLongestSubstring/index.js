@@ -10,7 +10,11 @@ function lengthOfLongestSubstring(s) {
   let maxLength = 0;
 
   for (let i = 0; i < s.length; i++) {
-    // @TODO
+    const endChar = s[i];
+
+    if (windowCharsMap[endChar] >= windowStart) {
+      windowStart = windowCharsMap[endChar];
+    }
   }
 }
 
