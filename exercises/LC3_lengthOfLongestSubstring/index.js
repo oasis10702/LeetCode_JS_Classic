@@ -13,12 +13,14 @@ function lengthOfLongestSubstring(s) {
     const endChar = s[i];
 
     if (windowCharsMap[endChar] >= windowStart) {
-      windowStart = windowCharsMap[endChar];
+      windowStart = windowCharsMap[endChar] + 1;
     }
 
     windowCharsMap[endChar] = i;
-    // @TODO
+    maxLength = Math.max(maxLength, i - windowStart + 1);
   }
+
+  return maxLength;
 }
 
 module.exports = lengthOfLongestSubstring;
