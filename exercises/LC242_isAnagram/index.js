@@ -1,5 +1,3 @@
-function isAnagram(s, t) {
-  // @TODO
-}
+function isAnagram(s, t) {}
 
 module.exports = isAnagram;
