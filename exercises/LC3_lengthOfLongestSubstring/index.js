@@ -5,6 +5,7 @@
 // lengthOfLongestSubstring("bbbbb") --> 1 since length of "b"
 
 function lengthOfLongestSubstring(s) {
+  // Use slide window
   let windowCharsMap = {};
   let windowStart = 0;
   let maxLength = 0;
