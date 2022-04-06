@@ -1,5 +1,7 @@
 function isAnagram(s, t) {
-  // @TODO
+  if (s.length !== t.length) {
+    return false;
+  }
 }
 
 module.exports = isAnagram;
