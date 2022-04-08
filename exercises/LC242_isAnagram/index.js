@@ -3,7 +3,7 @@ function isAnagram(s, t) {
     return false;
   }
 
-  const sCharCounts = {};
+  const sCharCounts = {}; // {H: 1, E: 1, L: 2, O: 1}
 }
 
 module.exports = isAnagram;
