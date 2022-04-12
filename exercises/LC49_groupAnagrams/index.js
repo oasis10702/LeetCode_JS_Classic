@@ -1,5 +1,5 @@
 function groupAnagrams(strs) {
-  // TODO
+  // @TODO
 }
 
 module.exports = groupAnagrams;
