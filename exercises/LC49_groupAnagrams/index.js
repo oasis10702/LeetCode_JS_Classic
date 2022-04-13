@@ -1,5 +1,5 @@
 function groupAnagrams(strs) {
-  // @TODO
+  let grouped = {};
 }
 
 module.exports = groupAnagrams;
