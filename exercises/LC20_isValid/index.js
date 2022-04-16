@@ -1,3 +1,5 @@
-const isValid = s => {};
+const isValid = (s) => {
+  // @TODO
+};
 
 module.exports = isValid;
