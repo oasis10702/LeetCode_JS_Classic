@@ -1,5 +1,5 @@
 const isValid = (s) => {
-  // @TODO
+  let stack = [];
 };
 
 module.exports = isValid;
