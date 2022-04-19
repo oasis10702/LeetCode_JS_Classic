@@ -1,7 +1,6 @@
 const isValid = (s) => {
   let stack = [];
-
-  // @TODO
+  let pairsHashMap = { "(": ")", "{": "}", "[": "]" };
 };
 
 module.exports = isValid;
