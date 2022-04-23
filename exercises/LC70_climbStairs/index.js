@@ -1,3 +1,5 @@
-const climbStairs = n => {};
+const climbStairs = (n) => {
+  // @TODO
+};
 
 module.exports = climbStairs;
