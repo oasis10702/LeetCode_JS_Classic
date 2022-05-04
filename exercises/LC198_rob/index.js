@@ -1,5 +1,3 @@
-function rob(nums) {
-  // @TODO
-}
+function rob(nums) {}
 
 module.exports = rob;
