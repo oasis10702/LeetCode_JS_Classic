@@ -3,7 +3,7 @@ function rob(nums) {
   if (nums.length === 1) return nums[0];
   if (nums.length === 2) return Math.max(nums[0], nums[1]);
 
-  let maxLootAtNth = [];
+  let maxLootAtNth = [nums[0], Math.max(nums[0], nums[1])];
 }
 
 module.exports = rob;
