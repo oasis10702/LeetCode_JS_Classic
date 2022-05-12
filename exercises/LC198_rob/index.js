@@ -4,6 +4,10 @@ function rob(nums) {
   if (nums.length === 2) return Math.max(nums[0], nums[1]);
 
   let maxLootAtNth = [nums[0], Math.max(nums[0], nums[1])];
+
+  for (let i = 2; i < nums.length; i++) {
+    // @TODO
+  }
 }
 
 module.exports = rob;
