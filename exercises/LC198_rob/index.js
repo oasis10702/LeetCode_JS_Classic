@@ -6,8 +6,12 @@ function rob(nums) {
   let maxLootAtNth = [nums[0], Math.max(nums[0], nums[1])];
 
   for (let i = 2; i < nums.length; i++) {
-    // @TODO
+    maxLootAtNth.push(
+      Math.max(nums[i] + maxLootAtNth[i - 2], maxLootAtNth[i - 1])
+    );
   }
+
+  return maxLootAtNth.pop();
 }
 
 module.exports = rob;
