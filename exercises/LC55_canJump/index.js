@@ -1,5 +1,3 @@
-function canJump(nums) {
-  // @TODO
-}
+function canJump(nums) {}
 
 module.exports = canJump;
