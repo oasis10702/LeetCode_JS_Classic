@@ -3,7 +3,9 @@ function canJump(nums) {
   dpPositions[0] = true;
 
   for (let j = 1; j < nums.length; j++) {
-    for (let i = 0; i < j; i++) {}
+    for (let i = 0; i < j; i++) {
+      // @TODO
+    }
   }
 }
 
