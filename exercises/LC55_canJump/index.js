@@ -6,9 +6,12 @@ function canJump(nums) {
     for (let i = 0; i < j; i++) {
       if (dpPositions[i] && i + nums[i] >= j) {
         dpPositions[j] = true;
+        break;
       }
     }
   }
+
+  return dpPositions[dpPositions.length - 1];
 }
 
 module.exports = canJump;
