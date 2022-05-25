@@ -1,5 +1,3 @@
-function lengthOfLIS(nums) {
-  // @TODO
-}
+function lengthOfLIS(nums) {}
 
 module.exports = lengthOfLIS;
