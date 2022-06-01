@@ -5,9 +5,7 @@ function lengthOfLIS(nums) {
   let maxSoFar = 1;
 
   for (let j = 1; i < nums.length; j++) {
-    for (let i = 0; i < j; i++) {
-      // @TODO
-    }
+    for (let i = 0; i < j; i++) {}
   }
 }
 
