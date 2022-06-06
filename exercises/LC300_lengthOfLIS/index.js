@@ -12,6 +12,8 @@ function lengthOfLIS(nums) {
     }
 
     maxSoFar = Math.max(maxSoFar, dpSubsequence[j]);
+
+    return maxSoFar;
   }
 }
 
