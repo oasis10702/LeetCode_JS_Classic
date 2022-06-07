@@ -1,5 +1,3 @@
-function coinChange(coins, amount) {
-  // @TODO
-}
+function coinChange(coins, amount) {}
 
 module.exports = coinChange;
