@@ -1,5 +1,5 @@
 function coinChange(coins, amount) {
-  // @TODO
+  let dpMinCoins = new Array(amount + 1).fill(Infinity);
 }
 
 module.exports = coinChange;
