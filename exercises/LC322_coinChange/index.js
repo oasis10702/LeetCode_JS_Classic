@@ -3,7 +3,9 @@ function coinChange(coins, amount) {
 
   dpMinCoins[0] = 0;
 
-  for (let i = 1; i < dpMinCoins.length; i++) {}
+  for (let i = 1; i < dpMinCoins.length; i++) {
+    // TODO
+  }
 }
 
 module.exports = coinChange;
