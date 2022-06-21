@@ -6,6 +6,9 @@ function coinChange(coins, amount) {
   for (let i = 1; i < dpMinCoins.length; i++) {
     for (let j = 0; j < coins.length; j++) {
       const coinValue = coins[j];
+      if (coinValue <= j) {
+        //
+      }
     }
   }
 }
