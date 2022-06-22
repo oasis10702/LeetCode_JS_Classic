@@ -7,7 +7,7 @@ function coinChange(coins, amount) {
     for (let j = 0; j < coins.length; j++) {
       const coinValue = coins[j];
       if (coinValue <= j) {
-        //
+        dpMinCoins[i] = Math.min(dpMinCoins[i - coinValue]);
       }
     }
   }
