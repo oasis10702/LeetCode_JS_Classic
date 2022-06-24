@@ -11,6 +11,8 @@ function coinChange(coins, amount) {
       }
     }
   }
+
+  const answer = dpMinCoins[dpMinCoins.length - 1];
 }
 
 module.exports = coinChange;
