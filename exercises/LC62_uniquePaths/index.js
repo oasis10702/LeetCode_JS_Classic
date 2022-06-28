@@ -1,3 +1,5 @@
-function uniquePaths(m, n) {}
+function uniquePaths(m, n) {
+  // TODO
+}
 
 module.exports = uniquePaths;
