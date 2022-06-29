@@ -1,5 +1,5 @@
 function uniquePaths(m, n) {
-  // TODO
+  // @TODO
 }
 
 module.exports = uniquePaths;
