@@ -1,5 +1,5 @@
 function uniquePaths(m, n) {
-  // @TODO
+  const dpMatrix = [];
 }
 
 module.exports = uniquePaths;
