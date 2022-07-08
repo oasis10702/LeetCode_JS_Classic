@@ -1,6 +1,7 @@
 function uniquePaths(m, n) {
   const dpMatrix = [];
 
+  // fill out first row of dp matrix
   for (let row = 1; row <= n; row++) {
     dpMatrix.push([]);
   }
