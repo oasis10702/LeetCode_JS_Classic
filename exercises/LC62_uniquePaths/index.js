@@ -10,6 +10,7 @@ function uniquePaths(m, n) {
     dpMatrix[row][0] = 1;
   }
 
+  // fill out first col of dp matrix
   for (let col = 0; col < m; col++) {}
 }
 
