@@ -15,7 +15,9 @@ function uniquePaths(m, n) {
     dpMatrix[0][col] = 1;
   }
 
-  for (let row = 1; row < n; row++) {}
+  for (let row = 1; row < n; row++) {
+    for (let col = 1; col < m; col++) {}
+  }
 }
 
 module.exports = uniquePaths;
