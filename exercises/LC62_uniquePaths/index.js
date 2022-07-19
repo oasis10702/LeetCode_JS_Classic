@@ -20,6 +20,8 @@ function uniquePaths(m, n) {
       dpMatrix[row][col] = dpMatrix[row][col - 1] + dpMatrix[row - 1][col];
     }
   }
+
+  return dpMatrix[dpMatrix.length - 1][m - 1];
 }
 
 module.exports = uniquePaths;
