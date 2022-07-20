@@ -1,3 +1,5 @@
-const containsDuplicate = nums => {};
+const containsDuplicate = (nums) => {
+  // @TODO
+};
 
 module.exports = containsDuplicate;
