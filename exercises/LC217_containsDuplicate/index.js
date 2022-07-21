@@ -1,5 +1,5 @@
 const containsDuplicate = (nums) => {
-  // @TODO
+  const visitedNums = {};
 };
 
 module.exports = containsDuplicate;
