@@ -3,6 +3,9 @@ const containsDuplicate = (nums) => {
 
   for (let i = 0; i < nums.length; i++) {
     const num = nums[i];
+
+    if (visitedNums[num]) {
+    }
   }
 };
 
