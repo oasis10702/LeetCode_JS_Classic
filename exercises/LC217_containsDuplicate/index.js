@@ -5,6 +5,7 @@ const containsDuplicate = (nums) => {
     const num = nums[i];
 
     if (visitedNums[num]) {
+      return true;
     }
   }
 };
