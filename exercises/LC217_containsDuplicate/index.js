@@ -6,6 +6,8 @@ const containsDuplicate = (nums) => {
 
     if (visitedNums[num]) {
       return true;
+    } else {
+      visitedNums[num] = true;
     }
   }
 };
