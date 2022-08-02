@@ -10,6 +10,8 @@ const containsDuplicate = (nums) => {
       visitedNums[num] = true;
     }
   }
+
+  return false;
 };
 
 module.exports = containsDuplicate;
