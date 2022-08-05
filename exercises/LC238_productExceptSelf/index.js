@@ -1,5 +1,5 @@
 const productExceptSelf = (nums) => {
-  // @TODO
+  // TODO
 };
 
 module.exports = productExceptSelf;
