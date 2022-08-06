@@ -1,5 +1,5 @@
 const productExceptSelf = (nums) => {
-  // TODO
+  let output = nums.map((n) => 1);
 };
 
 module.exports = productExceptSelf;
