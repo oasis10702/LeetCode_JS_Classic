@@ -4,7 +4,7 @@ const productExceptSelf = (nums) => {
 
   // Multiply from the left
   for (let i = 0; i < nums.length; i++) {
-    // @TODO
+    output[i] = output[i] * product;
   }
 };
 
