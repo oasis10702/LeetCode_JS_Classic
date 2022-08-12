@@ -5,6 +5,7 @@ const productExceptSelf = (nums) => {
   // Multiply from the left
   for (let i = 0; i < nums.length; i++) {
     output[i] = output[i] * product;
+    product = product + nums[i];
   }
 };
 
