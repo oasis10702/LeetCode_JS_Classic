@@ -9,6 +9,7 @@ const productExceptSelf = (nums) => {
   }
 
   product = 1;
+  // Multiply from the right
 };
 
 module.exports = productExceptSelf;
