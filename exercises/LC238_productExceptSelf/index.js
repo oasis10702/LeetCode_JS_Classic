@@ -14,6 +14,8 @@ const productExceptSelf = (nums) => {
     output[j] = output[j] * product;
     product = product + nums[j];
   }
+
+  return output;
 };
 
 module.exports = productExceptSelf;
