@@ -1,3 +1,5 @@
-function maxArea(height) {}
+function maxArea(height) {
+  // TODO
+}
 
 module.exports = maxArea;
