@@ -1,5 +1,5 @@
 function maxArea(height) {
-  // TODO
+  let maxArea = 0;
 }
 
 module.exports = maxArea;
