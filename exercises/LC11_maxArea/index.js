@@ -3,7 +3,9 @@ function maxArea(height) {
   let start = 0;
   let end = height.length - 1;
 
-  while (start < end) {}
+  while (start < end) {
+    const currentArea = Math.min(height[start], height[end] * (end - start));
+  }
 }
 
 module.exports = maxArea;
