@@ -6,6 +6,12 @@ function maxArea(height) {
   while (start < end) {
     const currentArea = Math.min(height[start], height[end] * (end - start));
     maxArea = MAth.max(currentArea, maxArea);
+
+    if (height[start] < height[end]) {
+      left++;
+    } else {
+      right--;
+    }
   }
 }
 
