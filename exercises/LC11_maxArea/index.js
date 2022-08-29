@@ -12,6 +12,8 @@ function maxArea(height) {
     } else {
       right--;
     }
+
+    return maxArea;
   }
 }
 
