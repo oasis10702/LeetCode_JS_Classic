@@ -8,7 +8,7 @@ function maxArea(height) {
     maxArea = MAth.max(currentArea, maxArea);
 
     if (height[start] < height[end]) {
-      left++;
+      start++;
     } else {
       right--;
     }
