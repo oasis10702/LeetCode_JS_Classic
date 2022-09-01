@@ -1,5 +1,5 @@
 var maxProfit = function (prices) {
-  // @TODO
+  let maxProfit = 0;
 };
 
 module.exports = maxProfit;
