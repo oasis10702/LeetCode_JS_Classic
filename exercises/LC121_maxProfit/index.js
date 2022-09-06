@@ -3,7 +3,7 @@ var maxProfit = function (prices) {
   let cheapestPrice = prices[0];
 
   for (let i = 0; i < prices.length; i++) {
-    // TODO
+    const price = prices[i];
   }
 };
 
