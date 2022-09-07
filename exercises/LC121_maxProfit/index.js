@@ -4,6 +4,8 @@ var maxProfit = function (prices) {
 
   for (let i = 0; i < prices.length; i++) {
     const price = prices[i];
+
+    if (price < cheapestPrice) cheapestPrice = price;
   }
 };
 
