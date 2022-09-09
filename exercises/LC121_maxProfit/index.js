@@ -6,6 +6,8 @@ var maxProfit = function (prices) {
     const price = prices[i];
 
     if (price < cheapestPrice) cheapestPrice = price;
+
+    const currentProfit = price - cheapestPrice;
   }
 };
 
