@@ -10,6 +10,8 @@ var maxProfit = function (prices) {
     const currentProfit = price - cheapestPrice;
     maxProfit = Math.max(currentProfit, maxProfit);
   }
+
+  return maxProfit;
 };
 
 module.exports = maxProfit;
