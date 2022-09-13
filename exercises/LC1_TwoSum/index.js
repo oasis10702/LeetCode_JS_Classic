@@ -6,8 +6,6 @@
 // twoSum([2,7,11,15], 9) --> [0,1]
 // twoSum([3,5,4], 9) --> [1,2]
 
-function twoSum(arr, target) {
-  // @TODO
-}
+function twoSum(arr, target) {}
 
 module.exports = twoSum;
