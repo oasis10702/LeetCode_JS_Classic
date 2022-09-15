@@ -7,7 +7,7 @@
 // twoSum([3,5,4], 9) --> [1,2]
 
 function twoSum(arr, target) {
-  const numVisited = {};
+  const numVisited = {}; // { 2: 0, 7: 1}
 }
 
 module.exports = twoSum;
