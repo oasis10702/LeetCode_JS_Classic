@@ -8,6 +8,7 @@
 
 function twoSum(arr, target) {
   const numVisited = {}; // { 2: 0, 7: 1}
+  const res = [];
 }
 
 module.exports = twoSum;
