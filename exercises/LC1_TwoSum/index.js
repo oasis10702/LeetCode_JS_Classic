@@ -9,6 +9,8 @@
 function twoSum(arr, target) {
   const numVisited = {}; // { 2: 0, 7: 1}
   const res = [];
+
+  for (let i = 0; i < arr.length; i++) {}
 }
 
 module.exports = twoSum;
