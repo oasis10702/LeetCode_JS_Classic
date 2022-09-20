@@ -10,7 +10,9 @@ function twoSum(arr, target) {
   const numVisited = {}; // { 2: 0, 7: 1}
   const res = [];
 
-  for (let i = 0; i < arr.length; i++) {}
+  for (let i = 0; i < arr.length; i++) {
+    const num = arr[i];
+  }
 }
 
 module.exports = twoSum;
