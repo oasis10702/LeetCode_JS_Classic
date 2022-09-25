@@ -13,6 +13,11 @@ function twoSum(arr, target) {
   for (let i = 0; i < arr.length; i++) {
     const num = arr[i];
     const complement = target - num;
+
+    if (numVisited[complement] !== undefined) {
+      res.push(i);
+      res.push(numVisited[complement]);
+    }
   }
 }
 
