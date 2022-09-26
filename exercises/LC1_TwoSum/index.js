@@ -18,6 +18,8 @@ function twoSum(arr, target) {
       res.push(i);
       res.push(numVisited[complement]);
     }
+
+    numVisited[num] = i;
   }
 }
 
