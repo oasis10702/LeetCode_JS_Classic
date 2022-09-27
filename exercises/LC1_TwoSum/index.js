@@ -21,6 +21,8 @@ function twoSum(arr, target) {
 
     numVisited[num] = i;
   }
+
+  return res;
 }
 
 module.exports = twoSum;
