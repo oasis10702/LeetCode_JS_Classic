@@ -1,5 +1,3 @@
-const threeSum = (nums) => {
-  // @todo
-};
+const threeSum = (nums) => {};
 
 module.exports = threeSum;
