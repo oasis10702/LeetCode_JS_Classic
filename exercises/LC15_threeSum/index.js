@@ -1,5 +1,5 @@
 const threeSum = (nums) => {
-  // @todo
+  nums.sort((a, b) => a - b);
 };
 
 module.exports = threeSum;
