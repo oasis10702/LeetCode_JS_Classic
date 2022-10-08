@@ -4,6 +4,7 @@ const threeSum = (nums) => {
 
   for (let i = 0; i < nums.length; i++) {
     const target = 0 - nums[i];
+    let left = i + 1;
   }
 };
 
