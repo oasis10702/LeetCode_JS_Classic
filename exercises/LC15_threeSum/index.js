@@ -11,6 +11,7 @@ const threeSum = (nums) => {
       if (nums[left] + nums[right] === target) {
         res.push([nums[i], nums[left], nums[right]]);
         left++;
+      } else if (nums[left] + nums[right] < target) {
       }
     }
   }
