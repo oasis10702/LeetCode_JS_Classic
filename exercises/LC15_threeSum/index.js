@@ -13,6 +13,8 @@ const threeSum = (nums) => {
         left++;
       } else if (nums[left] + nums[right] < target) {
         left++;
+      } else {
+        right--;
       }
     }
   }
