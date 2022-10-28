@@ -18,6 +18,8 @@ const threeSum = (nums) => {
       }
     }
   }
+
+  return res;
 };
 
 module.exports = threeSum;
