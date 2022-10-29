@@ -7,6 +7,9 @@ const threeSum = (nums) => {
     let left = i + 1;
     let right = nums.length - 1;
 
+    if (i > 0) {
+    }
+
     while (left < right) {
       if (nums[left] + nums[right] === target) {
         res.push([nums[i], nums[left], nums[right]]);
