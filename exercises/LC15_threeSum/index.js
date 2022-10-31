@@ -7,7 +7,7 @@ const threeSum = (nums) => {
     let left = i + 1;
     let right = nums.length - 1;
 
-    if (i > 0) {
+    if (i > 0 && nums[i] === nums[i - 1]) {
     }
 
     while (left < right) {
