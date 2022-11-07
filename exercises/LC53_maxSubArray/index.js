@@ -1,3 +1,5 @@
-function maxSubArray(nums) {}
+function maxSubArray(nums) {
+  // @todo
+}
 
 module.exports = maxSubArray;
