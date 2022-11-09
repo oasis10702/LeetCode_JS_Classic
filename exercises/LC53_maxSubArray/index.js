@@ -1,5 +1,5 @@
 function maxSubArray(nums) {
-  let dp = [];
+  let dp = [nums[0]];
 }
 
 module.exports = maxSubArray;
