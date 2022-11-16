@@ -3,7 +3,7 @@ function maxSubArray(nums) {
   let max = nums[0];
 
   for (let i = 1; i < nums.length; i++) {
-    console.log(dp[i]);
+    const num = nums[i];
   }
 }
 
