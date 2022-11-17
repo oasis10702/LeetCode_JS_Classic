@@ -4,6 +4,7 @@ function maxSubArray(nums) {
 
   for (let i = 1; i < nums.length; i++) {
     const num = nums[i];
+    dp[i] = Math.max(num, num + dp[i - 1]);
   }
 }
 
