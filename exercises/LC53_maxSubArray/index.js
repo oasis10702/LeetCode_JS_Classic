@@ -8,6 +8,8 @@ function maxSubArray(nums) {
 
     max = Math.max(max, dp[i]);
   }
+
+  return max;
 }
 
 module.exports = maxSubArray;
