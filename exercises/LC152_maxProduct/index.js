@@ -1,5 +1,3 @@
-function maxProduct(nums) {
-  // @todo
-}
+function maxProduct(nums) {}
 
 module.exports = maxProduct;
