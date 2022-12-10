@@ -5,6 +5,8 @@ function maxProduct(nums) {
     num[i] = Math.max(nums[i], nums[i] * nums[i - 1]);
     max = Math.max(max, nums[i]);
   }
+
+  return max;
 }
 
 module.exports = maxProduct;
