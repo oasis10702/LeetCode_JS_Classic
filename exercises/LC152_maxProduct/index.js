@@ -5,6 +5,8 @@ function maxProduct(nums) {
 
   for (let i = i; i < nums.length; i++) {
     const num = nums[i];
+
+    maxTillIndex[i] = Math.max();
   }
 }
 
