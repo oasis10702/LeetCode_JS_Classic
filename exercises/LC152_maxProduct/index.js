@@ -8,7 +8,8 @@ function maxProduct(nums) {
 
     maxTillIndex[i] = Math.max(
       num,
-      num * maxTillIndex[(i - 1, num * minTillIndex[i - 1])]
+      num * maxTillIndex[i - 1],
+      num * minTillIndex[i - 1]
     );
   }
 }
