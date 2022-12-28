@@ -17,6 +17,8 @@ function maxProduct(nums) {
       num * maxTillIndex[i - 1],
       num * minTillIndex[i - 1]
     );
+
+    max = Math.max(max, maxTillIndex[i]);
   }
 }
 
