@@ -20,6 +20,8 @@ function maxProduct(nums) {
 
     max = Math.max(max, maxTillIndex[i]);
   }
+
+  return max;
 }
 
 module.exports = maxProduct;
