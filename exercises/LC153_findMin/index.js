@@ -1,5 +1,5 @@
 function findMin(nums) {
-  // @TODO
+  let left = 0;
 }
 
 module.exports = findMin;
