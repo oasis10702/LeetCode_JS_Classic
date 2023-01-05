@@ -5,6 +5,9 @@ function findMin(nums) {
   if (nums.length === 1) {
     return nums[0];
   }
+
+  if (nums[left] < nums[right]) {
+  }
 }
 
 module.exports = findMin;
