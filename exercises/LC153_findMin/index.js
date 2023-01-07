@@ -7,6 +7,7 @@ function findMin(nums) {
   }
 
   if (nums[left] < nums[right]) {
+    return nums[left];
   }
 }
 
