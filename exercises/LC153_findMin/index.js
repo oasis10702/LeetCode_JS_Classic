@@ -10,7 +10,9 @@ function findMin(nums) {
     return nums[left];
   }
 
-  while (left <= right) {}
+  while (left <= right) {
+    const mid = Math.floor;
+  }
 }
 
 module.exports = findMin;
