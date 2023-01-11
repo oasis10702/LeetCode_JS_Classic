@@ -12,6 +12,8 @@ function findMin(nums) {
 
   while (left <= right) {
     const mid = Math.floor((left + right) / 2);
+
+    const leftVal = nums[left];
   }
 }
 
