@@ -14,6 +14,7 @@ function findMin(nums) {
     const mid = Math.floor((left + right) / 2);
 
     const leftVal = nums[left];
+    const midVal = nums[mid];
   }
 }
 
