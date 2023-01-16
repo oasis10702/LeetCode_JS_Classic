@@ -17,6 +17,9 @@ function findMin(nums) {
     const midVal = nums[mid];
     const leftOfMid = nums[mid - 1];
     const rightOfMid = nums[mid + 1];
+
+    if (midVal > rightOfMid) {
+    }
   }
 }
 
