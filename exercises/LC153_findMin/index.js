@@ -20,6 +20,7 @@ function findMin(nums) {
 
     if (midVal > rightOfMid) {
       return rightOfMid;
+    } else if (leftOfMid) {
     }
   }
 }
