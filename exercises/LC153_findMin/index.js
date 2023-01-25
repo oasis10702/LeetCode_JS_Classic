@@ -26,6 +26,7 @@ function findMin(nums) {
 
     if (midVal > leftVal) {
       left = mid + 1;
+    } else {
     }
   }
 }
