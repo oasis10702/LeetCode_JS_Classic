@@ -1,3 +1,5 @@
-function search(nums, target) {}
+function search(nums, target) {
+  // @TODO
+}
 
 module.exports = search;
