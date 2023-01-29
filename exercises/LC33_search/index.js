@@ -1,3 +1,5 @@
+function findMinIdx() {}
+
 function search(nums, target) {
   // @TODO
 }
