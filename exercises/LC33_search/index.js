@@ -3,6 +3,7 @@ function findMinIdx(rotatedSortedArr) {
   let right = rotatedSortedArr.length - 1;
 
   if (rotatedSortedArr.length === 1) {
+    return 0;
   }
 }
 
