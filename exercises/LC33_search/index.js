@@ -6,7 +6,7 @@ function findMinIdx(rotatedSortedArr) {
     return 0;
   }
 
-  if (rotatedSortedArr[left]) {
+  if (rotatedSortedArr[left] < rotatedSortedArr[right]) {
   }
 }
 
