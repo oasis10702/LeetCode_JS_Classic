@@ -9,6 +9,8 @@ function findMinIdx(rotatedSortedArr) {
   if (rotatedSortedArr[left] < rotatedSortedArr[right]) {
     return 0;
   }
+
+  while (left < right) {}
 }
 
 function search(nums, target) {
