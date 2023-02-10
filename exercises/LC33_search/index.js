@@ -10,7 +10,9 @@ function findMinIdx(rotatedSortedArr) {
     return 0;
   }
 
-  while (left < right) {}
+  while (left < right) {
+    const mie = Math.floor((left + right) / 2);
+  }
 }
 
 function search(nums, target) {
