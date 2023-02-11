@@ -11,7 +11,11 @@ function findMinIdx(rotatedSortedArr) {
   }
 
   while (left < right) {
-    const mie = Math.floor((left + right) / 2);
+    const mid = Math.floor((left + right) / 2);
+
+    if (rotatedSortedArr[mid] < rotatedSortedArr[mid - 1]) {
+      return mid;
+    }
   }
 }
 
