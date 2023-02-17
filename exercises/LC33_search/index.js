@@ -23,6 +23,8 @@ function findMinIdx(rotatedSortedArr) {
 
     if (rotatedSortedArr[mid] < rotatedSortedArr[left]) {
       right = mid - 1;
+    } else {
+      left = mid + 1;
     }
   }
 }
