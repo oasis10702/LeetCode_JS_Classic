@@ -29,6 +29,8 @@ function findMinIdx(rotatedSortedArr) {
   }
 }
 
+function binerySearch() {}
+
 function search(nums, target) {
   // @TODO
 }
