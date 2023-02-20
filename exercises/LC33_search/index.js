@@ -29,7 +29,7 @@ function findMinIdx(rotatedSortedArr) {
   }
 }
 
-function binerySearch() {}
+function binerySearch(num, target, left, right) {}
 
 function search(nums, target) {
   // @TODO
