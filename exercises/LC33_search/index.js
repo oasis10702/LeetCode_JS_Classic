@@ -29,7 +29,9 @@ function findMinIdx(rotatedSortedArr) {
   }
 }
 
-function binerySearch(num, target, left, right) {}
+function binerySearch(num, target, left, right) {
+  while (left <= right) {}
+}
 
 function search(nums, target) {
   // @TODO
