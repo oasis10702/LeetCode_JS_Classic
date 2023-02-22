@@ -30,7 +30,9 @@ function findMinIdx(rotatedSortedArr) {
 }
 
 function binerySearch(num, target, left, right) {
-  while (left <= right) {}
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+  }
 }
 
 function search(nums, target) {
