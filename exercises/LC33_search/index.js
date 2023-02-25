@@ -35,6 +35,8 @@ function binerySearch(num, target, left, right) {
 
     if (nums[mid] === target) {
       return mid;
+    } else if (nums[mid] < target) {
+      left = mid + 1;
     }
   }
 }
