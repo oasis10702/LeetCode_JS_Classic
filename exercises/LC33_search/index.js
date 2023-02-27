@@ -41,6 +41,8 @@ function binerySearch(num, target, left, right) {
       right = mid - 1;
     }
   }
+
+  return -1;
 }
 
 function search(nums, target) {
