@@ -46,7 +46,7 @@ function binerySearch(num, target, left, right) {
 }
 
 function search(nums, target) {
-  // @TODO
+  const minIdx = findMinIdx(nums);
 }
 
 module.exports = search;
