@@ -49,6 +49,7 @@ function search(nums, target) {
   const minIdx = findMinIdx(nums);
 
   const left = binerySearch(nums, target, 0, minIdx - 1);
+  const right = binerySearch(nums, target, minIdx, nums.length - 1);
 }
 
 module.exports = search;
