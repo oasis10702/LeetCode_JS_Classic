@@ -50,6 +50,8 @@ function search(nums, target) {
 
   const left = binerySearch(nums, target, 0, minIdx - 1);
   const right = binerySearch(nums, target, minIdx, nums.length - 1);
+
+  return Math.max(left, right);
 }
 
 module.exports = search;
