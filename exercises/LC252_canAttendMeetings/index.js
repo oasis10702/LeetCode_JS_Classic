@@ -5,7 +5,7 @@
 // canAttendMeetings([[7, 10], [2, 4]]) --> true
 
 const canAttendMeetings = (intervals) => {
-  // @todo
+  const starts = [];
 };
 
 module.exports = canAttendMeetings;
