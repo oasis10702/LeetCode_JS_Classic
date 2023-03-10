@@ -7,6 +7,8 @@
 const canAttendMeetings = (intervals) => {
   const starts = [];
   const ends = [];
+
+  // Fill up starts and ends
 };
 
 module.exports = canAttendMeetings;
