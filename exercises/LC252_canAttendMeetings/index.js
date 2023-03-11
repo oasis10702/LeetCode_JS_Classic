@@ -9,6 +9,7 @@ const canAttendMeetings = (intervals) => {
   const ends = [];
 
   // Fill up starts and ends
+  for (let i = 0; i < intervals.length; i++) {}
 };
 
 module.exports = canAttendMeetings;
