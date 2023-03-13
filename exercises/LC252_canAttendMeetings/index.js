@@ -9,7 +9,9 @@ const canAttendMeetings = (intervals) => {
   const ends = [];
 
   // Fill up starts and ends
-  for (let i = 0; i < intervals.length; i++) {}
+  for (let i = 0; i < intervals.length; i++) {
+    const subArray = intervals[i];
+  }
 };
 
 module.exports = canAttendMeetings;
