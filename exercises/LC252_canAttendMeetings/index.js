@@ -14,6 +14,8 @@ const canAttendMeetings = (intervals) => {
     starts.push(subArray[0]);
     ends.push(subArray[1]);
   }
+
+  starts.sort((a, b) => a - b);
 };
 
 module.exports = canAttendMeetings;
