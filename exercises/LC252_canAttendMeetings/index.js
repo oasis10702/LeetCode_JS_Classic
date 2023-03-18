@@ -16,6 +16,7 @@ const canAttendMeetings = (intervals) => {
   }
 
   starts.sort((a, b) => a - b);
+  ends.sort((a, b) => a - b);
 };
 
 module.exports = canAttendMeetings;
