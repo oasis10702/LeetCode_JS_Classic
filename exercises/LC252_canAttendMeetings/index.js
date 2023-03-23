@@ -19,8 +19,7 @@ const canAttendMeetings = (intervals) => {
   ends.sort((a, b) => a - b);
 
   for (let i = 0; i < starts.length; i++) {
-    if (starts[i + 1] < ends[i]) {
-    }
+    if (starts[i + 1] < ends[i]) return false;
   }
 };
 
