@@ -21,6 +21,8 @@ const canAttendMeetings = (intervals) => {
   for (let i = 0; i < starts.length; i++) {
     if (starts[i + 1] < ends[i]) return false;
   }
+
+  return true;
 };
 
 module.exports = canAttendMeetings;
