@@ -1,3 +1,5 @@
-const eraseOverlapIntervals = intervals => {};
+const eraseOverlapIntervals = (intervals) => {
+  // @todo
+};
 
 module.exports = eraseOverlapIntervals;
