@@ -1,5 +1,5 @@
 const eraseOverlapIntervals = (intervals) => {
-  // @todo
+  if (intervals.length === 0) return;
 };
 
 module.exports = eraseOverlapIntervals;
