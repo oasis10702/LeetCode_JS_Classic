@@ -4,6 +4,8 @@ const eraseOverlapIntervals = (intervals) => {
   let count = 0;
 
   intervals.sort((a, b) => a[0] - b[0]);
+
+  let end = intervals[0];
 };
 
 module.exports = eraseOverlapIntervals;
