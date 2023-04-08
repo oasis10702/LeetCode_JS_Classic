@@ -8,7 +8,7 @@ const eraseOverlapIntervals = (intervals) => {
   let end = intervals[0][1];
 
   for (let i = 1; i < intervals.length; i++) {
-    const intervals = intervals[i];
+    const interval = intervals[i];
   }
 };
 
