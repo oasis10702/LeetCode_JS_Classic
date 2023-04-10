@@ -9,6 +9,7 @@ const eraseOverlapIntervals = (intervals) => {
 
   for (let i = 1; i < intervals.length; i++) {
     const interval = intervals[i];
+    const intervalStart = interval[0];
   }
 };
 
