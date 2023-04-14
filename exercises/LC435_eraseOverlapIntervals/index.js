@@ -13,6 +13,7 @@ const eraseOverlapIntervals = (intervals) => {
     const intervalEnd = interval[1];
 
     if (intervalStart < end) {
+      count++;
     }
   }
 };
