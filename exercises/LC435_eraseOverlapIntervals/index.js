@@ -14,6 +14,7 @@ const eraseOverlapIntervals = (intervals) => {
 
     if (intervalStart < end) {
       count++;
+      end = Math.min();
     }
   }
 };
