@@ -1,3 +1,5 @@
-const merge = intervals => {};
+const merge = (intervals) => {
+  // @todo
+};
 
 module.exports = merge;
