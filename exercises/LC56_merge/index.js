@@ -1,5 +1,5 @@
 const merge = (intervals) => {
-  // @todo
+  if (!intervals.length) return intervals;
 };
 
 module.exports = merge;
