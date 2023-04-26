@@ -1,7 +1,7 @@
 const merge = (intervals) => {
   if (!intervals.length) return intervals;
 
-  intervals.sort();
+  intervals.sort((a, b) => a[0] - b[0]);
 };
 
 module.exports = merge;
