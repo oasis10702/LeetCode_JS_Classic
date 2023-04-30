@@ -5,7 +5,9 @@ const merge = (intervals) => {
 
   const res = [intervals[0]];
 
-  for (let i = 0; i < intervals.length; i++) {}
+  for (let i = 0; i < intervals.length; i++) {
+    const currentInterval = intervals[i];
+  }
 };
 
 module.exports = merge;
