@@ -7,6 +7,7 @@ const merge = (intervals) => {
 
   for (let i = 0; i < intervals.length; i++) {
     const currentInterval = intervals[i];
+    const lastInterval = res[res.length - 1];
   }
 };
 
