@@ -10,6 +10,7 @@ const merge = (intervals) => {
     const lastInterval = res[res.length - 1];
 
     if (currentInterval[0] <= lastInterval[1]) {
+      lastInterval[1] = Math.max();
     }
   }
 };
