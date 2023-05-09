@@ -12,6 +12,7 @@ const merge = (intervals) => {
     if (currentInterval[0] <= lastInterval[1]) {
       lastInterval[1] = Math.max(currentInterval[1], lastInterval[1]);
     } else {
+      res.push(currentInterval);
     }
   }
 };
