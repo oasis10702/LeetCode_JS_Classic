@@ -1,5 +1,5 @@
 function spiralOrder(matrix) {
-  // @todo
+  const spiralArray = [];
 }
 
 module.exports = spiralOrder;
