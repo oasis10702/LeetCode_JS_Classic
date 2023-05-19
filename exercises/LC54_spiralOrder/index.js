@@ -6,6 +6,7 @@ function spiralOrder(matrix) {
   }
 
   let top = 0;
+  let bottom = matrix.length - 1;
 }
 
 module.exports = spiralOrder;
