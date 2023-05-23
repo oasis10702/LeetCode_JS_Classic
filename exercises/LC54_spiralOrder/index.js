@@ -9,6 +9,7 @@ function spiralOrder(matrix) {
   let bottom = matrix.length - 1;
   let left = 0;
   let right = matrix[0].length - 1;
+  let dir = "right";
 }
 
 module.exports = spiralOrder;
