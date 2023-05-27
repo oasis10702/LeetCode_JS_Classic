@@ -11,7 +11,10 @@ function spiralOrder(matrix) {
   let right = matrix[0].length - 1;
   let dir = "right";
 
-  while (top <= bottom && left <= right) {}
+  while (top <= bottom && left <= right) {
+    if (dir === "right") {
+    }
+  }
 }
 
 module.exports = spiralOrder;
