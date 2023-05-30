@@ -13,7 +13,9 @@ function spiralOrder(matrix) {
 
   while (top <= bottom && left <= right) {
     if (dir === "right") {
-      for (let i = left; i <= right; i++) {}
+      for (let i = left; i <= right; i++) {
+        spiralArray.push(matrix[top][i]);
+      }
     }
   }
 }
