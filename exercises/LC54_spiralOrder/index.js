@@ -16,6 +16,7 @@ function spiralOrder(matrix) {
       for (let i = left; i <= right; i++) {
         spiralArray.push(matrix[top][i]);
       }
+      top++;
     }
   }
 }
