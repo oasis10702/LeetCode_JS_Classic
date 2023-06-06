@@ -19,7 +19,7 @@ function spiralOrder(matrix) {
       top++;
       dir = "down";
     } else if (dir === "down") {
-        for () {}
+      for (let i = 0; i <= right; i++) {}
     }
   }
 }
