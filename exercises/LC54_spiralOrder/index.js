@@ -20,7 +20,7 @@ function spiralOrder(matrix) {
       dir = "down";
     } else if (dir === "down") {
       for (let i = top; i <= bottom; i++) {
-        spiralArray.push(matrix[i][i]);
+        spiralArray.push(matrix[i][right]);
       }
       top++;
       dir = "down";
