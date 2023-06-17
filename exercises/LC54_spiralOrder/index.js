@@ -23,7 +23,7 @@ function spiralOrder(matrix) {
         spiralArray.push(matrix[i][right]);
       }
       top++;
-      dir = "down";
+      dir = "left";
     }
   }
 }
