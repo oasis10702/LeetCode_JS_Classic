@@ -24,6 +24,7 @@ function spiralOrder(matrix) {
       }
       right++;
       dir = "left";
+    } else if (dir === "left") {
     }
   }
 }
