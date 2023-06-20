@@ -25,6 +25,11 @@ function spiralOrder(matrix) {
       right++;
       dir = "left";
     } else if (dir === "left") {
+      for (let i = top; i <= bottom; i++) {
+        spiralArray.push(matrix[i][right]);
+      }
+      right++;
+      dir = "left";
     }
   }
 }
