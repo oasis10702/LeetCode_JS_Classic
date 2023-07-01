@@ -29,7 +29,7 @@ function spiralOrder(matrix) {
         spiralArray.push(matrix[bottom][i]);
       }
       bottom--;
-      dir = "left";
+      dir = "top";
     }
   }
 }
