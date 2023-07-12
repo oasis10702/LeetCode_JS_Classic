@@ -34,7 +34,7 @@ function spiralOrder(matrix) {
       for (let i = bottom; i >= top; i--) {
         spiralArray.push(matrix[i][left]);
       }
-      bottom--;
+      left++;
       dir = "up";
     }
   }
