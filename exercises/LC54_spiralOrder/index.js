@@ -35,7 +35,7 @@ function spiralOrder(matrix) {
         spiralArray.push(matrix[i][left]);
       }
       left++;
-      dir = "up";
+      dir = "right";
     }
   }
 }
