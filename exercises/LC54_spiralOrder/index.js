@@ -37,6 +37,8 @@ function spiralOrder(matrix) {
       left++;
       dir = "right";
     }
+
+    return spiralArray;
   }
 }
 
