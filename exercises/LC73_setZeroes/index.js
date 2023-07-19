@@ -1,5 +1,5 @@
 function setZeroes(matrix) {
-  // @todo
+  let firstColHasZero = false;
 }
 
 module.exports = setZeroes;
