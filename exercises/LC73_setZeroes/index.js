@@ -3,6 +3,7 @@ function setZeroes(matrix) {
   let firstRowHasZero = false;
 
   //  Check if first column has zero
+  for () {}
 }
 
 module.exports = setZeroes;
