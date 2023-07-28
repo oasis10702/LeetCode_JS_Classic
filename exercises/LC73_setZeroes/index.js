@@ -4,7 +4,8 @@ function setZeroes(matrix) {
 
   //  Check if first column has zero
   for (let i = 0; i < matrix.length; i++) {
-    if () {}
+    if (matrix[i][0] === 0) {
+    }
   }
 }
 
