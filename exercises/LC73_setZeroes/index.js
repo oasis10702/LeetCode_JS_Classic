@@ -6,6 +6,7 @@ function setZeroes(matrix) {
   for (let i = 0; i < matrix.length; i++) {
     if (matrix[i][0] === 0) {
       firstColHasZero = true;
+      break;
     }
   }
 }
