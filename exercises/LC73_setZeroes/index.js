@@ -9,6 +9,14 @@ function setZeroes(matrix) {
       break;
     }
   }
+
+  //  Check if first row has zero
+  for (let i = 0; i < matrix.length; i++) {
+    if (matrix[i][0] === 0) {
+      firstColHasZero = true;
+      break;
+    }
+  }
 }
 
 module.exports = setZeroes;
