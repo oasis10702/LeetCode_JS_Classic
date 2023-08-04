@@ -12,7 +12,7 @@ function setZeroes(matrix) {
 
   //  Check if first row has zero
   for (let i = 0; i < matrix[0].length; i++) {
-    if (matrix[i][0] === 0) {
+    if (matrix[0][i] === 0) {
       firstColHasZero = true;
       break;
     }
