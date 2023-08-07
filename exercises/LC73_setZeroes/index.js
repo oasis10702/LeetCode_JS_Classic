@@ -17,6 +17,8 @@ function setZeroes(matrix) {
       break;
     }
   }
+
+  // Use first row and column as flags, if rest of cells have zeros
 }
 
 module.exports = setZeroes;
