@@ -19,7 +19,9 @@ function setZeroes(matrix) {
   }
 
   // Use first row and column as flags, if rest of cells have zeros
-  for (let row = 1; row < matrix.length; row++) {}
+  for (let row = 1; row < matrix.length; row++) {
+    for () {}
+  }
 }
 
 module.exports = setZeroes;
