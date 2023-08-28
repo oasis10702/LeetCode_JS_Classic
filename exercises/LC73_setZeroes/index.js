@@ -28,7 +28,7 @@ function setZeroes(matrix) {
     }
   }
 
-  // Use first row and column as flags, if rest of cells have zeros
+  // Zero ut cells based on flags in first row and column
   for (let row = 1; row < matrix.length; row++) {
     for (let col = 1; col < matrix[0].length; col++) {}
   }
