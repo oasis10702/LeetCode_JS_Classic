@@ -31,7 +31,8 @@ function setZeroes(matrix) {
   // Zero ut cells based on flags in first row and column
   for (let row = 1; row < matrix.length; row++) {
     for (let col = 1; col < matrix[0].length; col++) {
-        if () {}
+      if (matrix[row][0] === 0) {
+      }
     }
   }
 }
