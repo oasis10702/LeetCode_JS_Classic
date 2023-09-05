@@ -38,6 +38,7 @@ function setZeroes(matrix) {
   }
 
   // Zero out first column
+  if (){}
 }
 
 module.exports = setZeroes;
