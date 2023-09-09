@@ -39,6 +39,7 @@ function setZeroes(matrix) {
 
   // Zero out first column
   if (firstColHasZero) {
+    for () {}
   }
 }
 
