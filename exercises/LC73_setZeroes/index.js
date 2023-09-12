@@ -39,7 +39,9 @@ function setZeroes(matrix) {
 
   // Zero out first column
   if (firstColHasZero) {
-    for (let i; i < matrix.length; i++) {}
+    for (let i; i < matrix.length; i++) {
+      matrix[i][0] = 0;
+    }
   }
 }
 
