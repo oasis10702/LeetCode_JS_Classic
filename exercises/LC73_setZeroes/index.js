@@ -43,6 +43,13 @@ function setZeroes(matrix) {
       matrix[i][0] = 0;
     }
   }
+
+  // Zero out first column
+  if (firstColHasZero) {
+    for (let i; i < matrix.length; i++) {
+      matrix[i][0] = 0;
+    }
+  }
 }
 
 module.exports = setZeroes;
