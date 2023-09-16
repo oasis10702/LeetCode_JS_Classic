@@ -45,7 +45,7 @@ function setZeroes(matrix) {
   }
 
   // Zero out first row
-  if (firstColHasZero) {
+  if (firstRowHasZero) {
     for (let i; i < matrix.length; i++) {
       matrix[i][0] = 0;
     }
