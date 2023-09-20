@@ -1,3 +1,5 @@
-function exist(board, word) {}
+function exist(board, word) {
+  // @todo
+}
 
 module.exports = exist;
