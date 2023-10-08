@@ -4,7 +4,7 @@ function exist(board, word) {
   for (let row = 0; row < board.length; row++) {
     for (let col = 0; board[0].length; col++) {
       if (board[row][col] === word[0]) {
-        dfs();
+        dfs(row, col, 0);
       }
     }
   }
