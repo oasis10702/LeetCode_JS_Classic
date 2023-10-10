@@ -8,6 +8,8 @@ function exist(board, word) {
       }
     }
   }
+
+  function dfs() {}
 }
 
 module.exports = exist;
