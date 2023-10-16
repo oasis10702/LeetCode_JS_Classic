@@ -9,7 +9,7 @@ function exist(board, word) {
     }
   }
 
-  function dfs(row, col, count) {}
+  function dfs(row, col, count, word) {}
 }
 
 module.exports = exist;
