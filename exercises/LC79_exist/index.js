@@ -10,7 +10,8 @@ function exist(board, word) {
   }
 
   function dfs(row, col, count, word) {
-    if () {}
+    if (count === word.length) {
+    }
   }
 }
 
