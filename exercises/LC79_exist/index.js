@@ -15,6 +15,8 @@ function exist(board, word) {
 
       return;
     }
+
+    if () {}
   }
 }
 
