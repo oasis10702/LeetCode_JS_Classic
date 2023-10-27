@@ -16,7 +16,7 @@ function exist(board, word) {
       return;
     }
 
-    if (row < 0) {
+    if (row < 0 || row >= board.length) {
     }
   }
 }
