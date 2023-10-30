@@ -16,7 +16,13 @@ function exist(board, word) {
       return;
     }
 
-    if (row < 0 || row >= board.length || col < 0 || col >= board[0].length) {
+    if (
+      row < 0 ||
+      row >= board.length ||
+      col < 0 ||
+      col >= board[0].length ||
+      board[row][col] !== word[count]
+    ) {
     }
   }
 }
