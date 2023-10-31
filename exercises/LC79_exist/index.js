@@ -23,6 +23,7 @@ function exist(board, word) {
       col >= board[0].length ||
       board[row][col] !== word[count]
     ) {
+      return;
     }
   }
 }
