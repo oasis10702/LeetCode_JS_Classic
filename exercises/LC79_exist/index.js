@@ -25,6 +25,8 @@ function exist(board, word) {
     ) {
       return;
     }
+
+    let temp;
   }
 }
 
