@@ -26,7 +26,7 @@ function exist(board, word) {
       return;
     }
 
-    let temp;
+    let temp = board[row][col];
   }
 }
 
