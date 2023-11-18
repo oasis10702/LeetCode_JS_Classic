@@ -30,7 +30,7 @@ function exist(board, word) {
     board[row][col] = "";
 
     dfs(row, col.count + 1, word);
-    dfs(row);
+    dfs(row, col);
   }
 }
 
