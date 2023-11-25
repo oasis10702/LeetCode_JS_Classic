@@ -29,7 +29,7 @@ function exist(board, word) {
     let temp = board[row][col];
     board[row][col] = "";
 
-    dfs(row, col.count + 1, word);
+    dfs(row + 1, col.count + 1, word);
     dfs(row, col, count + 1, word);
   }
 }
