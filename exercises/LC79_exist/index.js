@@ -36,6 +36,8 @@ function exist(board, word) {
 
     board[row][col] = temp;
   }
+
+  return found;
 }
 
 module.exports = exist;
