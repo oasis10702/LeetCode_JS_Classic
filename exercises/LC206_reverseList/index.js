@@ -1,3 +1,5 @@
-const reverseList = head => {};
+const reverseList = head => {
+    // todo
+};
 
 module.exports = reverseList;
