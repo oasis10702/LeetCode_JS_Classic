@@ -3,7 +3,7 @@ const reverseList = head => {
     let current = head;
 
     while (current) {
-        let temp;
+        let temp = current.next
     }
 };
 
