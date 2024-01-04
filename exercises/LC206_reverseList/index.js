@@ -6,6 +6,7 @@ const reverseList = head => {
         let temp = current.next;
 
         // Change direction
+        current.next = prev;
     }
 };
 
