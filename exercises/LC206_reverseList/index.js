@@ -10,7 +10,7 @@ const reverseList = head => {
 
         // Move prev and current up by 1
         prev = current;
-        current = current.next;
+        current = temp;
     }
 };
 
