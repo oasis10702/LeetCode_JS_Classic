@@ -1,5 +1,5 @@
 function hasCycle(head) {
-    // TODO
+    let slow = head;
 }
 
 module.exports = hasCycle;
