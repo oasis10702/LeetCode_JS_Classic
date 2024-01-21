@@ -2,7 +2,7 @@ function hasCycle(head) {
   let slow = head;
   let fast = head;
 
-  while () {}
+  while (fast) {}
 }
 
 module.exports = hasCycle;
