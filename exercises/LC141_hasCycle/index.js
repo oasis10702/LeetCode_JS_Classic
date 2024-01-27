@@ -6,7 +6,8 @@ function hasCycle(head) {
     slow = slow.next;
     fast = fast.next.next;
 
-    if () {}
+    if (slow === fast) {
+    }
   }
 }
 
