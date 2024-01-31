@@ -1,3 +1,5 @@
-function removeNthFromEnd(head, n) {}
+function removeNthFromEnd(head, n) {
+  // @TODO
+}
 
 module.exports = removeNthFromEnd;
