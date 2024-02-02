@@ -1,5 +1,5 @@
 function removeNthFromEnd(head, n) {
-  // @TODO
+  let dummyHead = { next: head };
 }
 
 module.exports = removeNthFromEnd;
