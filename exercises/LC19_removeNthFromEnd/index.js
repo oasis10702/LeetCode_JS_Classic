@@ -4,7 +4,7 @@ function removeNthFromEnd(head, n) {
   let fast = dummyHead;
 
   // Move fast N nodes ahead of slow.
-  for () {}
+  for (let i = 1) {}
 }
 
 module.exports = removeNthFromEnd;
