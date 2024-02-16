@@ -7,6 +7,8 @@ function removeNthFromEnd(head, n) {
   for (let i = 1; i <= n; i++) {
     fast = fast.next;
   }
+
+  //
 }
 
 module.exports = removeNthFromEnd;
