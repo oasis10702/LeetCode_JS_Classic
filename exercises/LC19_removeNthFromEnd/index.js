@@ -8,7 +8,7 @@ function removeNthFromEnd(head, n) {
     fast = fast.next;
   }
 
-  // Move slow and fast up one node
+  // Move slow and fast up one node at
 }
 
 module.exports = removeNthFromEnd;
