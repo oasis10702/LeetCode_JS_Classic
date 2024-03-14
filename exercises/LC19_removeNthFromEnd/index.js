@@ -11,6 +11,7 @@ function removeNthFromEnd(head, n) {
   // Move slow and fast up one node at a time until fast is last node
   while (fast.next) {
     slow = slow.next;
+    fast = fast.next;
   }
 }
 
