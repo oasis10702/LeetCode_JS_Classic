@@ -1,6 +1,6 @@
 function mergeTwoLists(l1, l2) {
   const dummyHead = { next: null };
-  let tail;
+  let tail = dummyHead;
 }
 
 module.exports = mergeTwoLists;
