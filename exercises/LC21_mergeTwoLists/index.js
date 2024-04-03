@@ -3,7 +3,8 @@ function mergeTwoLists(l1, l2) {
   let tail = dummyHead;
 
   while (l1 && l2) {
-    if (){}
+    if (l1.val < l2.val) {
+    }
   }
 }
 
