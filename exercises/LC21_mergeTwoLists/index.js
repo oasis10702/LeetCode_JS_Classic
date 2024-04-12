@@ -8,6 +8,7 @@ function mergeTwoLists(l1, l2) {
       tail = tail.next;
       l1 = l1.next;
     } else {
+      tail.next = l1;
     }
   }
 }
