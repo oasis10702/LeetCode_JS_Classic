@@ -10,6 +10,7 @@ function mergeTwoLists(l1, l2) {
     } else {
       tail.next = l2;
       tail = tail.next;
+      l2 = l2.next;
     }
   }
 }
