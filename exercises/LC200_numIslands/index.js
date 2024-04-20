@@ -1,3 +1,5 @@
-function numIslands(grid) {}
+function numIslands(grid) {
+  // @todo
+}
 
 module.exports = numIslands;
