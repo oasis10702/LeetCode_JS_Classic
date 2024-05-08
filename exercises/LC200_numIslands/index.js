@@ -3,7 +3,8 @@ function numIslands(grid) {
 
   for (let row = 0; row < grid.length; row++) {
     for (let col = 0; col < grid[0].length; col++) {
-      if() {}
+      if (grid[row][col] === '1') {
+      }
     }
   }
 }
