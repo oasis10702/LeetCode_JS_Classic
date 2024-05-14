@@ -5,7 +5,7 @@ function numIslands(grid) {
     for (let col = 0; col < grid[0].length; col++) {
       if (grid[row][col] === '1') {
         count++;
-        dfs(grid);
+        dfs(grid, row);
       }
     }
   }
