@@ -9,6 +9,8 @@ function numIslands(grid) {
       }
     }
   }
+
+  function dfs() {}
 }
 
 module.exports = numIslands;
