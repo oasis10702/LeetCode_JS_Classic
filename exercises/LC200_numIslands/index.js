@@ -10,7 +10,7 @@ function numIslands(grid) {
     }
   }
 
-  function dfs(grid) {}
+  function dfs(grid, row) {}
 }
 
 module.exports = numIslands;
