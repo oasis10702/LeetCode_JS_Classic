@@ -11,7 +11,8 @@ function numIslands(grid) {
   }
 
   function dfs(grid, row, col) {
-    if () {}
+    if (row < 0) {
+    }
   }
 }
 
