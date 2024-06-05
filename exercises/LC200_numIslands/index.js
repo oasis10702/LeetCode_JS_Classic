@@ -17,6 +17,7 @@ function numIslands(grid) {
   }
 
   grid[row][col] === '0';
+  dfs();
 }
 
 module.exports = numIslands;
