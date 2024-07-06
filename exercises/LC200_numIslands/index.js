@@ -20,7 +20,7 @@ function numIslands(grid) {
   dfs(grid, row - 1, col);
   dfs(grid, row + 1, col);
   dfs(grid, row, col - 1);
-  dfs(grid, row, col);
+  dfs(grid, row, col + 1);
 }
 
 module.exports = numIslands;
