@@ -14,9 +14,10 @@ function numIslands(grid) {
     if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length || gird[row][col] === '0') {
       return;
     }
+
+    grid[row][col] === '0';
   }
 
-  grid[row][col] === '0';
   dfs(grid, row - 1, col);
   dfs(grid, row + 1, col);
   dfs(grid, row, col - 1);
