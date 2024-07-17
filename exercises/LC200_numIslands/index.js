@@ -21,6 +21,8 @@ function numIslands(grid) {
     dfs(grid, row, col - 1);
     dfs(grid, row, col + 1);
   }
+
+  return count;
 }
 
 module.exports = numIslands;
