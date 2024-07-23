@@ -1,5 +1,5 @@
 function invertTree(root) {
-  function helper() {}
+  function helper(node) {}
 }
 
 module.exports = invertTree;
