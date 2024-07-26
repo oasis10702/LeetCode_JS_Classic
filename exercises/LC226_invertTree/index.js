@@ -1,6 +1,7 @@
 function invertTree(root) {
   function helper(node) {
-    if (){}
+    if (!node) {
+    }
   }
 }
 
