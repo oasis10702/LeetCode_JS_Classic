@@ -3,6 +3,7 @@ function invertTree(root) {
     if (!node) return;
 
     node.left = node.right;
+    node.right;
   }
 }
 
