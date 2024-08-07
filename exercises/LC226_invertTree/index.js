@@ -2,6 +2,7 @@ function invertTree(root) {
   function helper(node) {
     if (!node) return;
 
+    const temp;
     node.left = node.right;
     node.right = node.left;
   }
