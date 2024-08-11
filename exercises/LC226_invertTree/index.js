@@ -4,7 +4,7 @@ function invertTree(root) {
 
     const temp = node.left;
     node.left = node.right;
-    node.right = node.left;
+    node.right = temp;
   }
 }
 
