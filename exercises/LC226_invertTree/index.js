@@ -7,6 +7,7 @@ function invertTree(root) {
     node.right = temp;
 
     helper(node.left);
+    helper();
   }
 }
 
