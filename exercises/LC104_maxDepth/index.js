@@ -1,3 +1,5 @@
-function maxDepth(root) {}
+function maxDepth(root) {
+  // @TODO
+}
 
 module.exports = maxDepth;
