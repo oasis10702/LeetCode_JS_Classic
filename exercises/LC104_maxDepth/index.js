@@ -3,7 +3,8 @@ function maxDepth(root) {
   doo;
 
   function dive(node, currentDepth) {
-    if (){}
+    if (!node) {
+    }
   }
 }
 
