@@ -4,7 +4,7 @@ function maxDepth(root) {
 
   function dive(node, currentDepth) {
     if (!node) {
-      maxDepth = Math.max();
+      maxDepth = Math.max(currentDepth - 1);
     }
   }
 }
