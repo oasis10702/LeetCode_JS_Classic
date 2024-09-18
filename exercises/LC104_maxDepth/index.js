@@ -8,6 +8,8 @@ function maxDepth(root) {
       return;
     }
   }
+
+  dive();
 }
 
 module.exports = maxDepth;
