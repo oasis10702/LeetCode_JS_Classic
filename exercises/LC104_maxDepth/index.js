@@ -7,9 +7,9 @@ function maxDepth(root) {
       maxDepth = Math.max(currentDepth - 1, maxDepth);
       return;
     }
-  }
 
-  dive();
+    dive();
+  }
 }
 
 module.exports = maxDepth;
