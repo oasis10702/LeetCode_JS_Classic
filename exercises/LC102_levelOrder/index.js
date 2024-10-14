@@ -1,5 +1,5 @@
 function levelOrder(root) {
-  // todo
+  const res;
 }
 
 module.exports = levelOrder;
