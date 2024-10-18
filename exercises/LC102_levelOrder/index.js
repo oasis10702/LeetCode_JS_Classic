@@ -1,7 +1,7 @@
 function levelOrder(root) {
   const res = [];
 
-  function helper();
+  function helper(node);
 }
 
 module.exports = levelOrder;
