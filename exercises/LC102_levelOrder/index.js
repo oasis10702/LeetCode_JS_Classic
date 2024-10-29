@@ -3,6 +3,7 @@ function levelOrder(root) {
 
   function helper(node, depth) {
     if (!node) {
+      return;
     }
   }
 }
