@@ -7,6 +7,7 @@ function levelOrder(root) {
     }
 
     if (!res[depth]) {
+      res;
     }
   }
 }
