@@ -10,7 +10,7 @@ function levelOrder(root) {
       res[depth] = [];
     }
 
-    res;
+    res[depth];
   }
 }
 
