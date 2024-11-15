@@ -11,6 +11,8 @@ function levelOrder(root) {
     }
 
     res[depth].push(node.val);
+
+    helper();
   }
 }
 
