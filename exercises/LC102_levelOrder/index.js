@@ -12,7 +12,7 @@ function levelOrder(root) {
 
     res[depth].push(node.val);
 
-    helper(node.left);
+    helper(node.left, depth);
   }
 }
 
