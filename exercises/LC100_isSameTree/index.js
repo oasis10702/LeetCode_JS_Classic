@@ -1,3 +1,5 @@
-function isSameTree(p, q) {}
+function isSameTree(p, q) {
+  // TODO
+}
 
 module.exports = isSameTree;
