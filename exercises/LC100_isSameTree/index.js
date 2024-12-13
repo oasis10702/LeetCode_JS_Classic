@@ -1,5 +1,5 @@
 function isSameTree(p, q) {
-  let sameTree;
+  let sameTree = true;
 }
 
 module.exports = isSameTree;
