@@ -1,7 +1,7 @@
 function isSameTree(p, q) {
   let sameTree = true;
 
-  function checkSameNode(p) {}
+  function checkSameNode(p, q) {}
 }
 
 module.exports = isSameTree;
