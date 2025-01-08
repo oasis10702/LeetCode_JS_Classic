@@ -4,7 +4,8 @@ function isSameTree(p, q) {
   function checkSameNode(p, q) {
     if (!p && !q) {
       return;
-    } else if () {}
+    } else if (!p) {
+    }
   }
 }
 
