@@ -8,7 +8,8 @@ function isSameTree(p, q) {
       sameTree = false;
 
       return;
-    } else if () {}
+    } else if (p.val) {
+    }
   }
 }
 
