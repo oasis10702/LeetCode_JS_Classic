@@ -10,6 +10,8 @@ function isSameTree(p, q) {
       return;
     } else if (p.val !== q.val) {
       sameTree = false;
+
+      return;
     }
   }
 }
