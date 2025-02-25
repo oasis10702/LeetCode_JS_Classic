@@ -13,10 +13,10 @@ function isSameTree(p, q) {
 
       return;
     }
-  }
 
-  checkSameNode(p.left, q.left);
-  checkSameNode(p.right, q.right);
+    checkSameNode(p.left, q.left);
+    checkSameNode(p.right, q.right);
+  }
 }
 
 module.exports = isSameTree;
