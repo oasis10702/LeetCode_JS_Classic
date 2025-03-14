@@ -1,5 +1,5 @@
 function lowestCommonAncestor(root, p, q) {
-    const pVal;
+  const pVal = p.val;
 }
 
 module.exports = lowestCommonAncestor;
