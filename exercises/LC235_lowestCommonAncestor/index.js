@@ -3,6 +3,8 @@ function lowestCommonAncestor(root, p, q) {
   const qVal = q.val;
 
   let currentNode = root;
+
+  while() {}
 }
 
 module.exports = lowestCommonAncestor;
