@@ -4,7 +4,7 @@ function lowestCommonAncestor(root, p, q) {
 
   let currentNode = root;
 
-  while() {}
+  while (currentNode) {}
 }
 
 module.exports = lowestCommonAncestor;
