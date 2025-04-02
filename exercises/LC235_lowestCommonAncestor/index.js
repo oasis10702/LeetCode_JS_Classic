@@ -5,7 +5,7 @@ function lowestCommonAncestor(root, p, q) {
   let currentNode = root;
 
   while (currentNode) {
-    const currentVal;
+    const currentVal = currentNode;
   }
 }
 
