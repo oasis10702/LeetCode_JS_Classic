@@ -7,7 +7,8 @@ function lowestCommonAncestor(root, p, q) {
   while (currentNode) {
     const currentVal = currentVal.val;
 
-    if(){}
+    if (currentVal) {
+    }
   }
 }
 
