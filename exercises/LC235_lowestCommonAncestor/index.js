@@ -7,7 +7,7 @@ function lowestCommonAncestor(root, p, q) {
   while (currentNode) {
     const currentVal = currentVal.val;
 
-    if (currentVal < pVal && currentVal) {
+    if (currentVal < pVal && currentVal < qVal) {
     }
   }
 }
