@@ -8,6 +8,7 @@ function lowestCommonAncestor(root, p, q) {
     const currentVal = currentVal.val;
 
     if (currentVal < pVal && currentVal < qVal) {
+      currentNode;
     }
   }
 }
