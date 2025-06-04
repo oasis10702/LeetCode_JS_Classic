@@ -11,6 +11,7 @@ function lowestCommonAncestor(root, p, q) {
       currentNode = currentNode.right;
     } else if (currentVal > pVal && currentVal > qVal) {
       currentNode = currentNode.left;
+    } else {
     }
   }
 }
